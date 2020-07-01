@@ -736,7 +736,7 @@ q {
 }
 
 .portfolio-thumb {
-    margin-bottom: 24px;
+    margin: 0 auto 24px auto;
 }
 
 .portfolio-row {
