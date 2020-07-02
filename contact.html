@@ -10,8 +10,13 @@
     
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
+	<!--<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">-->
+
+	<link rel="preload" href="./css/font-awesome.min.css" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="./css/font-awesome.min.css"></noscript>
+	<link rel="preload" href="./css/et-line.min.css" as="style" type="text/css" onload="this.onload=null;this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="./css/et-line.min.css"></noscript>
 	
 	<script src="./js/jquery-2.1.0.min.js" defer></script>
 	<script src="./js/bootstrap.min.js" defer></script>
@@ -45,7 +50,7 @@
 								<a href="index.html">Accueil</a>
 							</li>
 							<li>
-								<a href="contact.html">Contactez-nous &gt;</a>
+								<a href="contact.html">Contactez-nous</a>
 							</li>
 						</ul>
 					</div>
