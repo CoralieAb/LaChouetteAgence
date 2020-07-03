@@ -55,22 +55,6 @@ a:hover {
     padding: 20px 50px;
 }
 
-.bg-center,
-.bg-l-edge,
-.bg-r-edge,
-.bg-t-edge,
-.bg-b-edge,
-.bg-tl-edge,
-.bg-bl-edge,
-.bg-tr-edge,
-.bg-br-edge,
-.bg-repeat {
-    -webkit-background-size: auto!important;
-    -moz-background-size: auto!important;
-    -o-background-size: auto!important;
-    background-size: auto!important;
-}
-
 .bg-repeat {
     background: repeat;
 }
@@ -533,10 +517,7 @@ a[data-lightbox]:hover img {
     background: none;
 }
 
-h1,
 h2,
-h3,
-h4,
 h5,
 h6,
 p,
@@ -584,11 +565,11 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333333;
 }
 
 h1, h4 {
-    color: #333333!important;
+    color: #333333;
 }
 
 q {
@@ -603,8 +584,7 @@ q {
 
 .cta-hero {
     margin-top: 22px;
-    /*color: #FFFFFF!important;*/
-    color: #333333!important;
+    color: #333333;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -675,13 +655,13 @@ q {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #c27956;
     color: #FFFFFF!important;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #364577;
+    border-color: #364577;
 }
 
 .bg-lines-h2-bg {
