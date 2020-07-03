@@ -176,8 +176,8 @@ q{font-size:20px;font-style:italic;}
 .btn-atomic-tangerine:hover{background:#c27956!important;color:#FFFFFF!important;}
 .icon-dark-slate-blue{color:#364577!important;border-color:#364577!important;}
 .bg-lines-h2-bg{background-image:url("img/lines-h2-bg.png");}
-.bg-banniere{background-image:url("img/la-chouette-agence-banniere.webp");}
-.bg-presentation{background-image:url("img/image-de-presentation.webp");}
+.bg-banniere{background-image:url("img/la-chouette-agence-banniere.jpg");}
+.bg-presentation{background-image:url("img/image-de-presentation.jpg");}
 @media (max-width:1024px){.bloc{padding-left:20px;padding-right:20px;}
 .bloc.full-width-bloc,
 .bloc-tile-2.full-width-bloc .container,
